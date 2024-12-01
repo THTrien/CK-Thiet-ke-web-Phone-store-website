@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tin tức - Thế giới điện thoại</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tintuc.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+	<script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Samsung", "iPhone", "Xiaomi", "Oppo", "Nokia"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="body-tintuc">
+            <div class="tintuc-info">
+                <a href="https://zingnews.vn/samsung-an-dinh-ngay-ra-mat-galaxy-s23-post1392767.html" target="_blank">
+                    <img src="img/tintuc/tintuc1.jpg">
+                    <h2>Samsung ấn định ngày ra mắt Galaxy S23</h2>
+                </a>
+                <br/>
+                <h5>Zing &emsp;10 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://mobilecity.vn/tin-tuc/huong-dan-kich-hoat-imessage-bi-loi-tren-iphone-13-series.html" target="_blank">
+                    <img src="img/tintuc/tintuc2.png">
+                    <h2>Hướng dẫn kích hoạt imessage bị lỗi trên iPhone 13, 13 Pro, 13 Pro Max</h2>
+                </a>
+                <br/>
+                <h5>Mobilecity &emsp; 6 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://vov.vn/cong-nghe/tin-cong-nghe/san-pham-man-hinh-doc-dao-cua-samsung-cho-nam-2023-post994573.vov" target="_blank">
+                    <img src="img/tintuc/tintuc3.jpg">
+                    <h2>Sản phẩm màn hình độc đáo của Samsung cho năm 2023</h2>
+                </a>
+                <br/>
+                <h5>VOV &emsp; 6 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://www.thegioididong.com/tin-tuc/smartphone-sony-thanh-cong-va-that-bai--1152288" target="_blank">
+                    <img src="img/tintuc/tintuc4.png">
+                    <h2>Sony Việt Nam dừng bán smartphone, thực hư ra sao?</h2>
+                </a>
+                <br/>
+                <h5>The gioi di dong &emsp; 13 giờ</h5>
+            </div>
+            <div class="tintuc-info" style="border-bottom: 0;">
+                <a href="https://viettelstore.vn/tin-tuc/cau-hinh-dien-thoai-nhu-the-nao-la-tot-nhat" target="_blank">
+                    <img src="img/tintuc/tintuc5.png" height="148px" width="224px;">
+                    <h2>10 tiêu chí đánh giá cấu hình điện thoại như thế nào là tốt nhất</h2>
+                </a>
+                <br/>
+                <h5>Viettel store &emsp; 9 giờ</h5>
+            </div> 
+
+        </div>
+
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+
+</body>
+
+</html>
