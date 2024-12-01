@@ -1,0 +1,61 @@
+/* Plc */
+.plc {
+	background: #0c0e0a;
+	/* overflow: hidden; */
+	font-size: 19px;
+	font-weight: 150;
+	font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+	color: #e7fe54;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	text-align: center;
+	margin-top: 2px;
+}
+
+.plc ul {
+	width: 100%;
+}
+
+.plc li {
+	width: 20%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 5px 10px;
+	line-height: 20px;
+	border-right: solid 1px #dbe8b0;
+	margin: 5px 0;
+}
+
+.plc li:last-child {
+	border-right: none;
+}
+
+/* ============= Footer ============= */
+.footer {
+	position: relative;
+	/* height: 40px; */
+	width: 100%;
+	background: #476;
+}
+
+.copy-right {
+	/* position: absolute; */
+	/* bottom: 0; */
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	color: #e7fe54;
+	background-color: #0d0f0b;
+}
+
+.copy-right a {
+	color: #e7fe54;
+	transition: .2s ease;
+}
+
+.copy-right a:hover {
+	color: #f9f9f9;
+}
+
+/* ======= End Footer ======== */
